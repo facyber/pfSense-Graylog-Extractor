@@ -42,7 +42,7 @@
         "regex_value": "^.*filterlog:(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^.*filterlog:(.*),(in|out),6,.*,UDP,.*$"
+      "condition_value": "^.*filterlog:(.*),(in|out),6,.*,(?i)UDP,.*$"
     },
     {
       "title": "pfSense filterlog: IPv4 TCP",
@@ -88,7 +88,7 @@
         "regex_value": "^.*filterlog:(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^.*filterlog:(.*),(in|out),4,.*,udp,.*$"
+      "condition_value": "^.*filterlog:(.*),(in|out),4,.*,(?i)udp,.*$"
     },
     {
       "title": "pfSense filterlog: IPv4 ICMP Echo",
